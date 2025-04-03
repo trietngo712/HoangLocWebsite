@@ -138,6 +138,8 @@
         filter: filter,
         sortBy: sort
       });
+
+      initIsotope.layout()
     });
 
     isotopeItem.querySelectorAll('.isotope-filters li').forEach(function(filters) {
